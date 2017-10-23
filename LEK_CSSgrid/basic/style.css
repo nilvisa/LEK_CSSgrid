@@ -1,0 +1,23 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 32.7% 32.7% 32.7%;
+  grid-gap: 1em;
+}
+
+.item {
+  background-color: pink;
+  padding: 40px;
+  font-size: 40px;
+}
+
+.a {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.i {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
